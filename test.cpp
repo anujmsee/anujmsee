@@ -4,6 +4,13 @@ using namespace std;
  
 int main()
 {
-    cout<<"Hello World";
+    cout<<"Addition of two numbers" << endl;
+
+    int a, b, c;
+    a = 10;
+    b = 20;
+    c = a + b;
+    cout<< " " << a << " + " << b << " is " << c << endl;
+
     return 0;
 }
